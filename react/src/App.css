@@ -1,0 +1,74 @@
+#app {
+display: flex;
+text-align: center;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  
+}
+
+.h-s1 {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+h1{
+font-size: 60px;
+
+
+}
+
+input{
+  text-align: center;
+  font-size: 18px;
+  border-style: none;
+  border-color: white;
+  border-radius: 20px;
+  height: 60px;
+  width: 360px;
+}
+input:hover{
+  background-color: rgb(27, 27, 27) ;
+  border-style: initial;
+  border-color: white;
+}
+
+button {
+text-align: center;
+font-size: 18px;
+border-style: none;
+border-radius:14px;
+background-color: field;
+height: 60px;
+width: 90px;
+}
+
+button:hover{
+  background-color: rgb(27, 27, 27) ;
+  border-color: white;
+}
+ul{
+  
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+ 
+}
+
+ul li{
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li input {
+
+  width: 30px;
+  height: 30px;
+
+}
